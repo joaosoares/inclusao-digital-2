@@ -1,0 +1,53 @@
+/*
+Error: File to import not found or unreadable: bootstrap-sass-official/assets/stylesheets/_bootstrap.scss.
+       Load paths:
+         /Users/joao/Development/inclusao-digital-2/app/styles
+         Sass::Globbing::Importer
+        on line 3 of /Users/joao/Development/inclusao-digital-2/app/styles/main.scss
+
+1: $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+2: // bower:scss
+3: @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+4: // endbower
+5: 
+6: .browsehappy {
+7:   margin: 0.2em 0;
+8:   background: #ccc;
+
+Backtrace:
+/Users/joao/Development/inclusao-digital-2/app/styles/main.scss:3
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:66:in `rescue in import'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:45:in `import'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:301:in `visit_import'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:20:in `render'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:268:in `render'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:404:in `run'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Users/joao/Downloads/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: bootstrap-sass-official/assets/stylesheets/_bootstrap.scss.\A        Load paths:\A          /Users/joao/Development/inclusao-digital-2/app/styles\A          Sass::Globbing::Importer\A         on line 3 of /Users/joao/Development/inclusao-digital-2/app/styles/main.scss\A \A 1: $icon-font-path: \"../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/\";\A 2: // bower:scss\A 3: @import \"bootstrap-sass-official/assets/stylesheets/_bootstrap.scss\";\A 4: // endbower\A 5: \A 6: .browsehappy {\A 7:   margin: 0.2em 0;\A 8:   background: #ccc;"; }
