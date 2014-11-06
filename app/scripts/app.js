@@ -39,6 +39,10 @@ angular
         templateUrl: 'views/atas.html',
         controller: 'AtasCtrl'
       })
+      .when('/mensagens', {
+        templateUrl: 'views/mensagens.html',
+        controller: 'MensagensCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
